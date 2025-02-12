@@ -1,0 +1,282 @@
+.container{
+    width: 1179px;
+    margin: 0 auto; 
+}
+
+header{
+    display: flex;
+    margin-top: 46px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.big{
+    display: flex;
+    gap: 40px;
+}
+
+header div{
+    font-size: 18px;
+    color: #605f62;
+    font-family: Mulish;
+    line-height: 22.59px;
+    letter-spacing: 0%;
+}
+
+header div:hover{
+    color: #1F1534;
+}
+
+.first{
+    margin-top: 91px;
+    display: flex;
+}
+
+.first .part h2{
+    font-family: Mulish;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 56px;
+    letter-spacing: 0%;
+    color: #000000;
+    margin-top: 176px;
+}
+
+.first .part .p{
+    font-family: Mulish;
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    color: #7D7987;
+    margin-top: 26px;
+    margin-bottom: 35px;
+    margin-right: 131px;    
+}
+
+button{
+    width: 197.7528076171875px;
+    height: 49.124332427978516px;
+    border-radius: 55px;
+    color: rgba(69, 143, 246, 1);
+    border: 1.4px solid rgba(69, 143, 246, 1);
+    background-color: white;
+    font-family: Mulish;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 21.34px;
+    letter-spacing: 0%;    
+}
+
+button:hover{
+    background-color: rgba(69, 143, 246, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+.second .hi {
+    width: 952px;
+    height: 179.35023498535156px;
+    margin-top: 91px;
+    margin-left: 126px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.second div h2{
+    font-family: Mulish;
+    font-weight: 700px;
+    font-size: 35px;
+    line-height: 56px;
+    letter-spacing: 0%;
+    color: rgba(0, 0, 0, 1);    
+}
+
+.second div p{
+    margin-top: 61px;
+    font-family: Mulish;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: rgba(125, 121, 135, 1);    
+}
+
+.second .images .div img{
+    width: 96.90511322021484px;
+    height: 93.84440612792969px;
+    margin-top: 68px ;
+    margin-left: 38px;
+    margin-bottom: 40px;
+}
+
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 36px;
+    margin-left: 10px;
+    gap: 20px;
+    width: 1180px;
+}
+
+.second .images .div{
+    width: 380px;
+    height: 381px;
+    border-radius: 20px;
+    background-color: rgba(231, 231, 231, 1);
+    margin-top: 40px;
+}
+
+.second .images .div h2{
+    margin-bottom: 1px;
+    margin-left: 44px;
+    font-family: Mulish;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 56px;
+    letter-spacing: 0%;    
+}
+
+.second .images .div p{
+    margin-left: 40px;
+    margin-top: 0.64px;
+    margin-bottom: 31px;
+    font-family: Mulish;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    display: flex;
+    justify-content: start;    
+}
+
+.second .images .div:hover{
+    background-color: rgba(90, 152, 242, 1);
+}
+
+.second .images .div:hover h2{
+    color: rgba(255, 255, 255, 1);
+}
+
+.second .images .div:hover p{
+    color: rgba(255, 255, 255, 1);
+}
+
+.third h2{
+    text-align: center;
+    margin-top: 76px;
+    font-family: Mulish;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: 0%;    
+}
+
+.third .div3{
+    display: flex;
+    margin-top: 75px;
+}
+
+.third .div3 .small3div h2{
+    font-family: Mulish;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 56px;
+    letter-spacing: 0%;    
+}
+
+.third .div3 .small3div p{
+    font-family: Mulish;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0%;    
+    color: rgba(125, 121, 135, 1);
+}
+
+.forth h2{
+    margin-top: 152px;
+    text-align: center;
+    font-family: Mulish;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 56px;
+    letter-spacing: 0%;
+    margin-bottom: 109px;    
+}
+
+.text{
+    display: flex;
+    gap: 20px;
+}
+
+.forth .text .forthpart h3{
+    margin-top: 30px;
+    margin-left: 30px;
+    font-family: Mulish;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 32px;
+    letter-spacing: 0%;    
+}
+
+.forth .text .forthpart p{
+    margin-left: 30px;
+    margin-top: 10px;
+    font-family: Mulish;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    color: rgba(125, 121, 135, 1);    
+}
+
+.forth .text .forthpart h4{
+    margin-left: 30px;
+    margin-top: 18px;
+    color: rgba(64, 137, 237, 1);
+    font-family: Mulish;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 28px;
+    letter-spacing: 0%;    
+}
+
+.foot{
+    display: flex;
+    margin-top: 10px;
+}
+
+.smallone p{
+    font-family: Mulish;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    color: rgba(255, 255, 255, 1);
+    margin-right: 150px;    
+}
+
+.anotherone p{
+    font-family: Mulish;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    color: rgba(255, 255, 255, 1);
+}
+
+.anotherone h2{
+    font-family: Mulish;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25.1px;
+    letter-spacing: 0%;
+    color: white;    
+}
+
+.anotherone{
+    display: flex;
+    gap: 170px;
+}
